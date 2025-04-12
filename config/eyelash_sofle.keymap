@@ -52,11 +52,11 @@
 
         layer_1 {
             bindings = <
-&kp DELETE  &kp F1     &kp F2            &kp F3        &kp F4             &kp F5           &trans  &kp F6           &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
-&trans      &trans     &kp LC(LEFT)      &kp UP_ARROW  &kp LC(RIGHT)      &kp HOME         &trans  &kp END          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_EQUAL  &kp F12
-&trans      &trans     &kp LEFT          &kp DOWN      &kp RIGHT          &kp PLUS         &trans  &kp MINUS        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &trans
-&kp LC(C)   &kp LC(V)  &kp LS(LC(LEFT))  &kp LC(X)     &kp LS(LC(RIGHT))  &kp KP_DIVIDE    &trans  &kp KP_MULTIPLY  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans
-&trans      &trans     &trans            &trans        &trans             &trans           &trans  &trans           &kp KP_EQUAL  &trans        &kp NUMBER_0  &trans
+&trans     &trans     &trans            &trans        &trans             &trans           &trans  &trans           &trans        &trans        &trans        &trans        &kp DELETE
+&trans     &trans     &kp LC(LEFT)      &kp UP_ARROW  &kp LC(RIGHT)      &kp HOME         &trans  &kp END          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_EQUAL  &trans
+&trans     &trans     &kp LEFT          &kp DOWN      &kp RIGHT          &kp PLUS         &trans  &kp MINUS        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &trans
+&kp LC(C)  &kp LC(V)  &kp LS(LC(LEFT))  &kp LC(X)     &kp LS(LC(RIGHT))  &kp KP_DIVIDE    &trans  &kp KP_MULTIPLY  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans
+&trans     &trans     &trans            &trans        &trans             &trans           &trans  &trans           &trans        &trans        &kp NUMBER_0  &trans
             >;
 
             display-name = "layer1";
