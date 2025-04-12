@@ -55,18 +55,18 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - LEFT WIN
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - layer1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - RIGHT WIN
   layer1:
-  - {t: '`', s: '~'}
+  - $$mdi:backspace-reverse-outline$$
   - F1
   - F2
   - F3
@@ -81,9 +81,9 @@ layers:
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+$$mdi:arrow-right-bold$$
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
   - END
@@ -105,11 +105,11 @@ layers:
   - '6'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+C
+  - Ctl+V
+  - Sft+Ctl+$$mdi:arrow-left-bold$$
+  - Ctl+X
+  - Sft+Ctl+$$mdi:arrow-right-bold$$
   - KP DIVIDE
   - {t: '$$mdi:transfer$$', type: trans}
   - KP MULTIPLY
@@ -127,8 +127,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP EQUAL
-  - '0'
   - {t: '$$mdi:transfer$$', type: trans}
+  - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - {t: '$$mdi:transfer$$', type: trans}
