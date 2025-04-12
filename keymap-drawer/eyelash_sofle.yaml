@@ -66,19 +66,19 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - RIGHT WIN
   layer1:
-  - $$mdi:backspace-reverse-outline$$
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
   - {t: '$$mdi:transfer$$', type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+$$mdi:arrow-left-bold$$
@@ -91,7 +91,7 @@ layers:
   - '8'
   - '9'
   - KP EQUAL
-  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP EQUAL
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
