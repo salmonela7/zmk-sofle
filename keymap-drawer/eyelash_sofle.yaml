@@ -90,7 +90,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - KP EQUAL
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -110,9 +110,9 @@ layers:
   - Sft+Ctl+$$mdi:arrow-left-bold$$
   - Ctl+X
   - Sft+Ctl+$$mdi:arrow-right-bold$$
-  - KP DIVIDE
-  - {t: '$$mdi:transfer$$', type: trans}
   - KP MULTIPLY
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP DIVIDE
   - '1'
   - '2'
   - '3'
