@@ -52,11 +52,11 @@
 
         layer_1 {
             bindings = <
-&trans     &trans     &trans       &trans     &trans      &trans         &trans  &trans            &trans             &trans          &trans                &trans                 &trans
-&kp GRAVE  &kp N1     &kp N2       &kp N3     &kp N4      &kp N5         &trans  &kp N6            &kp N7             &kp N8          &kp N9                &kp N0                 &kp BSPC
-&kp TILDE  &kp EXCL   &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT    &trans  &kp CARET         &kp AMPERSAND      &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&kp PIPE   &kp UNDER  &kp MINUS    &kp EQUAL  &kp PLUS    &trans         &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &trans                 &trans
-&trans     &trans     &trans       &trans     &trans      &trans         &trans  &trans            &trans             &trans          &trans                &trans
+&trans     &trans     &trans       &trans     &trans      &trans            &trans  &trans            &trans             &trans          &trans                &trans                 &trans
+&kp TILDE  &kp EXCL   &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT       &trans  &kp CARET         &kp AMPERSAND      &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&kp GRAVE  &kp N1     &kp N2       &kp N3     &kp N4      &kp N5            &trans  &kp N6            &kp N7             &kp N8          &kp N9                &kp N0                 &kp BACKSLASH
+&kp PIPE   &kp UNDER  &kp MINUS    &kp EQUAL  &kp PLUS    &kp UNDERSCORE    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &trans                 &trans
+&trans     &trans     &trans       &trans     &trans      &trans            &trans  &trans            &trans             &trans          &trans                &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
