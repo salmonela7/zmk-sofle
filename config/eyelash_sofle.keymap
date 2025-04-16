@@ -60,6 +60,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+            label = "symbol_layer";
         };
 
         navigation_layer {
@@ -77,12 +78,14 @@
 
         window_moving_layer {
             bindings = <
-&trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans              &trans        &trans      &trans         &trans  &trans
-&trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans              &trans        &trans      &trans         &trans  &trans
-&trans  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &kp LG(LEFT_ARROW)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans  &trans
-&trans  &kp N6        &kp N7  &kp N8  &kp N9  &kp N0    &trans  &trans              &trans        &trans      &trans         &trans  &trans
-&trans  &trans        &trans  &trans  &mo 3   &trans    &trans  &trans              &mo 3         &trans      &trans         &trans
+&trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans              &trans         &trans      &trans         &trans  &trans
+&trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans              &trans         &trans      &trans         &trans  &trans
+&trans  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &kp LG(LEFT_ARROW)  &kp LG(DOWN)   &kp LG(UP)  &kp LG(RIGHT)  &trans  &trans
+&trans  &kp N6        &kp N7  &kp N8  &kp N9  &kp N0    &trans  &trans              &trans         &trans      &trans         &trans  &trans
+&trans  &trans        &trans  &trans  &mo 3   &trans    &trans  &trans              &kp RIGHT_WIN  &trans      &trans         &trans
             >;
+
+            label = "window_moving_layer";
         };
     };
 };
